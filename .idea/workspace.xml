@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df0f6b09-0dfb-4e39-be8d-30e192b497a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/apex/amp/_amp_state.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apex/amp/_initialize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apex/amp/_process_optimizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apex/amp/frontend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apex/multi_tensor_apply/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apex/multi_tensor_apply/multi_tensor_apply.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apex/normalization/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apex/normalization/fused_layer_norm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apex/optimizers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apex/optimizers/fp16_optimizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apex/optimizers/fused_adam.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apex/parallel/optimized_sync_batchnorm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apex/parallel/optimized_sync_batchnorm_kernel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apex/parallel/sync_batchnorm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apex/parallel/sync_batchnorm_kernel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csrc/amp_C_frontend.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csrc/flatten_unflatten.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csrc/fused_adam_cuda.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csrc/fused_adam_cuda_kernel.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csrc/layer_norm_cuda.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csrc/layer_norm_cuda_kernel.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csrc/multi_tensor_apply.cuh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csrc/multi_tensor_axpby_kernel.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csrc/multi_tensor_scale_kernel.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csrc/syncbn.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csrc/type_shim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csrc/welford.cu" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/_templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/advanced.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/layernorm.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/source/optimizers.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/dcgan/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/deprecated_api/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/deprecated_api/imagenet/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/deprecated_api/imagenet/main_amp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/imagenet/main_amp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/simple/distributed/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/simple/distributed/distributed_data_parallel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/simple/distributed/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/L0/run_amp/test_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/L0/run_amp/test_multi_tensor_axpby.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/L0/run_amp/test_multi_tensor_scale.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/L0/run_amp/test_multiple_models_optimizers_losses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/L0/run_fp16util/test_fp16util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/L0/run_mixed_adam/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/L0/run_mixed_adam/test_fp16_optimizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/L0/run_mixed_adam/test_mixed_adam.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/L1/common/compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/L1/common/main_amp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/L1/common/run_test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/L1/cross_product/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/L1/cross_product_distributed/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/distributed/amp_master_params/amp_master_params.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/distributed/amp_master_params/compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/distributed/amp_master_params/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/distributed/synced_batchnorm/single_gpu_unit_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/distributed/synced_batchnorm/test_groups.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/distributed/synced_batchnorm/two_gpu_unit_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/distributed/synced_batchnorm/unit_test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/docker_extension_builds/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apex/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/amp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/apex/amp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/amp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apex/amp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/amp/amp.py" beforeDir="false" afterPath="$PROJECT_DIR$/apex/amp/amp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/amp/handle.py" beforeDir="false" afterPath="$PROJECT_DIR$/apex/amp/handle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/amp/lists/functional_overrides.py" beforeDir="false" afterPath="$PROJECT_DIR$/apex/amp/lists/functional_overrides.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/amp/lists/torch_overrides.py" beforeDir="false" afterPath="$PROJECT_DIR$/apex/amp/lists/torch_overrides.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/amp/opt.py" beforeDir="false" afterPath="$PROJECT_DIR$/apex/amp/opt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/amp/rnn_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/apex/amp/rnn_compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/amp/scaler.py" beforeDir="false" afterPath="$PROJECT_DIR$/apex/amp/scaler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/amp/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/apex/amp/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/amp/wrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/apex/amp/wrap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/fp16_utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apex/fp16_utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/fp16_utils/fp16_optimizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/apex/fp16_utils/fp16_optimizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/fp16_utils/fp16util.py" beforeDir="false" afterPath="$PROJECT_DIR$/apex/fp16_utils/fp16util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/fp16_utils/fused_weight_norm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/fp16_utils/loss_scaler.py" beforeDir="false" afterPath="$PROJECT_DIR$/apex/fp16_utils/loss_scaler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/parallel/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/apex/parallel/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/parallel/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apex/parallel/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex/parallel/distributed.py" beforeDir="false" afterPath="$PROJECT_DIR$/apex/parallel/distributed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/RNN.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/amp.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/amp.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/fp16_utils.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/fp16_utils.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/parallel.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/source/parallel.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/source/reparameterization.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/FP16_Optimizer_simple/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/FP16_Optimizer_simple/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/FP16_Optimizer_simple/closure.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/FP16_Optimizer_simple/closure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/FP16_Optimizer_simple/distributed_apex/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/FP16_Optimizer_simple/distributed_apex/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/FP16_Optimizer_simple/distributed_apex/distributed_data_parallel.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/FP16_Optimizer_simple/distributed_apex/distributed_data_parallel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/FP16_Optimizer_simple/distributed_apex/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/FP16_Optimizer_simple/distributed_apex/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/FP16_Optimizer_simple/distributed_apex_legacy_launcher/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/FP16_Optimizer_simple/distributed_apex_legacy_launcher/distributed_data_parallel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/FP16_Optimizer_simple/distributed_apex_legacy_launcher/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/FP16_Optimizer_simple/distributed_pytorch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/FP16_Optimizer_simple/distributed_pytorch/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/FP16_Optimizer_simple/distributed_pytorch/distributed_data_parallel.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/FP16_Optimizer_simple/distributed_pytorch/distributed_data_parallel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/FP16_Optimizer_simple/distributed_pytorch/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/FP16_Optimizer_simple/distributed_pytorch/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/FP16_Optimizer_simple/minimal.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/FP16_Optimizer_simple/minimal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/FP16_Optimizer_simple/save_load.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/FP16_Optimizer_simple/save_load.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/examples/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/distributed/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/distributed/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/distributed/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/distributed/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/distributed/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/distributed/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/docker/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/docker/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/imagenet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/examples/imagenet/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/imagenet/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/imagenet/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/imagenet/main_fp16_optimizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/imagenet/main_fp16_optimizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/imagenet/main_reducer.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/imagenet/main_reducer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/imagenet/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/imagenet/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/word_language_model/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/word_language_model/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/word_language_model/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/word_language_model/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/word_language_model/data/wikitext-2/README" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/word_language_model/data/wikitext-2/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/word_language_model/data/wikitext-2/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/word_language_model/data/wikitext-2/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/word_language_model/data/wikitext-2/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/word_language_model/data/wikitext-2/train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/word_language_model/data/wikitext-2/valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/word_language_model/data/wikitext-2/valid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/word_language_model/generate.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/word_language_model/generate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/word_language_model/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/word_language_model/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/word_language_model/main_fp16_optimizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/word_language_model/main_fp16_optimizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/word_language_model/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/word_language_model/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/word_language_model/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/deprecated_api/word_language_model/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/RNN/RNN_tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/distributed/ddp_race_condition_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/distributed/DDP/ddp_race_condition_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/distributed/run_race_test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tests/distributed/DDP/run_race_test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/run_amp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/L0/run_amp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/run_amp/test_basic_casts.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/L0/run_amp/test_basic_casts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/run_amp/test_promotion.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/L0/run_amp/test_promotion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/run_amp/test_rnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/L0/run_amp/test_rnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/run_amp/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/L0/run_amp/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/run_fp16_optimizer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/L0/run_fp16util/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/run_fp16_optimizer/test_fp16_optimizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/L0/run_test.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="43" selection-start-column="43" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/setup.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/apex.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2959" />
+    <option name="y" value="692" />
+    <option name="width" value="1912" />
+    <option name="height" value="2118" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="apex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apex" type="462c0819:PsiDirectoryNode" />
+              <item name="apex" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df0f6b09-0dfb-4e39-be8d-30e192b497a9" name="Default Changelist" comment="" />
+      <created>1559418552615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559418552615</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1919" y="0" width="3842" height="2122" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986877" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
